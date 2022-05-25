@@ -1,7 +1,10 @@
 ## vue-intro-step
 
-> 基于vue2、vue3的系统引导步骤组件。
+### 请注意！！！这里是基于vue2版本的组件库
+
+> 基于vue2的系统引导步骤组件。
 > 更加便捷的操作引导步骤。
+> vue3版本的引导步骤组件请移步 [vue3-intro-step](https://www.npmjs.com/package/vue3-intro-step)
 
 ### 安装
 
