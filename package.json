@@ -6,6 +6,12 @@
   "browser": "dist/vue-intro-step.esm.js",
   "module": "dist/vue-intro-step.esm.js",
   "unpkg": "dist/vue-intro-step.min.js",
+  "license": "MIT",
+  "author": "mjhu",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mjhuu/vue-intro-step.git"
+  },
   "keywords": [
     "vue",
     "vue-intro",
