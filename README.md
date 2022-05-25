@@ -2,9 +2,9 @@
 
 ### 请注意！！！这里是基于vue2版本的组件库
 
-> 基于vue2的系统引导步骤组件。
-> 更加便捷的操作引导步骤。
-> vue3版本的引导步骤组件请移步 [vue3-intro-step](https://www.npmjs.com/package/vue3-intro-step)
+> 基于vue2的系统步骤引导组件。
+> 更加便捷的操作步骤引导。
+> vue3版本的步骤引导组件请移步 [vue3-intro-step](https://www.npmjs.com/package/vue3-intro-step)
 
 ### 安装
 
@@ -183,14 +183,14 @@ export default {
 
 ## 组件参数
 
-> `v-model` 参数：控制引导步骤组件是否显示
+> `v-model` 参数：控制步骤引导组件是否显示
 >
-> `config` 参数：配置引导步骤组件的参数
->   - `backgroundOpacity?` 参数：引导步骤组件的背景透明度，默认值为0.9，取值范围0-1
->  - `titleStyle?` 参数：引导步骤组件的标题样式
+> `config` 参数：配置步骤引导组件的参数
+>   - `backgroundOpacity?` 参数：步骤引导组件的背景透明度，默认值为0.9，取值范围0-1
+>  - `titleStyle?` 参数：步骤引导组件的标题样式
 >     - `textAlign?` 参数：标题文字的居中样式，默认值为 `center`，可选值有：`left`, `center`, `right`
 >     - `fontSize?` 参数：标题文字的字体大小样式
->  - `contentStyle?` 参数：引导步骤组件的内容样式
+>  - `contentStyle?` 参数：步骤引导组件的内容样式
 >     - `textAlign?` 参数：内容文字的居中样式，默认值为 `center`，可选值有：`left`, `center`, `right`
 >     - `fontSize?` 参数：内容文字的字体大小样式
 >  - `tips` 参数：用于盛放哪些元素需要引导
@@ -201,4 +201,4 @@ export default {
 >     - `onNext?` 参数：引导元素提示信息点击 *下一步* 按钮时的回调函数，返回一个promise，如果返回的promise成功，则继续下一步，否则不继续下一步
 >     - `onPrev?` 参数：引导元素提示信息点击 *上一步* 按钮时的回调函数，返回一个promise，如果返回的promise成功，则继续上一步，否则不继续上一步
 >
-> `@close` 事件参数：关闭引导步骤组件时会触发的事件
+> `@close` 事件参数：关闭步骤引导组件时会触发的事件
