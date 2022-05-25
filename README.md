@@ -135,7 +135,7 @@ export default {
 
 ```vue
 <template>
-  <vue-intro-step v-model:show="show" :config="config" ref="myIntroStep">
+  <vue-intro-step v-model="show" :config="config" ref="myIntroStep">
     <!--
       插槽-自定义底部按钮
 
