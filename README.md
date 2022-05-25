@@ -63,6 +63,14 @@ export default {
             tipPosition: 'bottom',
             title: '欢迎使用问答管理系统',
             content: '点击左侧菜单进行操作',
+            onNext: () => {
+              return new Promise((resolve, reject) => {
+                // 延迟2秒 再执行下一步
+                setTimeout(() => {
+                  resolve(true);
+                }, 2000);
+              });
+            }
           },
           {
             el: '#intro_mine',
