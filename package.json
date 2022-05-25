@@ -1,6 +1,6 @@
 {
   "name": "vue-intro-step",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "基于vue2的系统引导步骤组件。",
   "main": "dist/vue-intro-step.ssr.js",
   "browser": "dist/vue-intro-step.esm.js",
